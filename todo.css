@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+
+}
+
+.container{
+    margin-top: 50px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+    padding: 40px;
+    width: 600px;
+    height: 450px;
+    background: linear-gradient(44deg,#ffff 62%,#ee3437 62%);
+     position: relative;
+     border-radius: 10px;
+}
+
+.container .welcome{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+form{
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.header h1{
+    margin-bottom: 10px;
+    color: rgb(9, 39, 39);
+}
+input{
+    
+    flex-direction: column;
+    margin-top: 20px;
+    border: none;
+    padding: 6px;
+    width: 80%;
+    background-color:rgb(192, 177, 177);
+    font-size: 20px;
+    border-radius: 5px;
+    color:black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+input::placeholder{
+    opacity: 0.2;
+}
+
+ p{
+    font-size: 20px;
+
+}
+
+span a{
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+    margin: 8px;
+}
+
+.forget-remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.checkbox .check{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+    
+}
+.forget-password{
+    margin-top: 10px;
+}
+.forget-password a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    
+}
+
+.hello{
+    font-size: 22px;
+    color: green;
+    margin: 10px;
+}
+
+.btn{
+   position: absolute; 
+   right: 200px;
+   padding: 10px;
+   border: none;
+   background-color: green;
+   font-size: 20px;
+   border-radius: 30px;
+   color: white;
+}
+
+.icon1,.icon2{
+    margin: 15px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(243, 231, 231);
+}
